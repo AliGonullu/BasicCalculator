@@ -1,0 +1,50 @@
+.calc_button {
+    background-color: aliceblue;
+    font-size: large;
+    width: 60px;
+    height: 60px;
+    margin: 5px 2px 2px 2px;
+}
+
+.num_button {
+    background-color: beige;
+    font-size: large;
+    width: 60px;
+    height: 60px;
+    margin: 5px 2px 2px 2px;
+}
+
+#button0 {
+    background-color: beige;
+    width: 128px;
+    height: 60px;
+    margin: 5px 2px 2px 2px;
+}
+
+#clearButton {
+    background-color: tomato;
+}
+
+#equalButton {
+    background-color: rgb(109, 206, 109);
+    width: 60px;
+    height: 60px;
+    margin: 5px 2px 2px 2px;
+}
+
+#general_div {
+    background-color: darkslategray;
+    border: 5px solid black;
+    position: fixed;
+    margin: 250px 45% 0px 40%;
+    padding: 30px 30px 30px 33px;
+}
+
+#result {
+    background-color: aquamarine;
+    border: 3px solid darkcyan;
+    width: 190px;
+    height: 65px;
+    margin: 5px 2px 5px 2px;
+    font-size: 32px;
+}

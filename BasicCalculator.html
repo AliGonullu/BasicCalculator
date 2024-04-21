@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body style="background-color: rgb(97, 90, 90);">
+
+    <div id="general_div">
+        <p id="result"></p>
+        <button class="num_button" id="button1" onclick="buttonPush(1)">1</button>
+        <button class="num_button" id="button2" onclick="buttonPush(2)">2</button>
+        <button class="num_button" id="button3" onclick="buttonPush(3)">3</button>
+        <button class="num_button" id="button4" onclick="buttonPush(4)">4</button>
+        <button class="num_button" id="button5" onclick="buttonPush(5)">5</button>
+        <button class="num_button" id="button6" onclick="buttonPush(6)">6</button>
+        <button class="num_button" id="button7" onclick="buttonPush(7)">7</button>
+        <button class="num_button" id="button8" onclick="buttonPush(8)">8</button>
+        <button class="num_button" id="button9" onclick="buttonPush(9)">9</button>
+        <button class="num_button" id="button0" onclick="buttonPush(0)">0</button>
+        <button class="num_button" id="dot" onclick="number_fraction()">.</button>
+        <button class="calc_button" id="clearButton" onclick="clear_all_op()">C</button>
+        <button class="calc_button" id="plusButton" onclick="operation('+')">+</button>
+        <button class="calc_button" id="extractButton" onclick="operation('-')">-</button>
+        <button class="calc_button" id="multiplyButton" onclick="operation('x')">x</button>
+        <button class="calc_button" id="divideButton" onclick="operation('/')">/</button>
+        <button class="calc_button" id="equalButton" onclick="equal()">=</button>
+    </div>
+    <script src="BasicCalculator.js"></script>
+</body>
+
+</html>
