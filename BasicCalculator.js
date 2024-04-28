@@ -2,7 +2,7 @@
 const calculator = { totalSum: 0, idx: 0, fraction_idx: Infinity, mtp: 1, frac_mtp: 1 };
 let num = [];
 let curr_op = "";
-let resultElement = document.getElementById("result");
+const resultElement = document.getElementById("result");
 
 function buttonPush(x) {
     num[calculator.idx] = x;
